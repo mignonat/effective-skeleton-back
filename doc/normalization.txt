@@ -1,2 +1,0 @@
-- CSS : nom des classes en minusclules, séparé par des tirets
-- Respecter la structure hierachique avec les noms de fichier
