@@ -1,7 +1,0 @@
-{"level":"info","message":"Starting on environment \"production\"","timestamp":"2017-07-13T11:43:24.681Z"}
-{"level":"info","message":"Back web services started on port 5151","timestamp":"2017-07-13T11:43:24.706Z"}
-{"level":"info","message":"Mongoose default connection open to mongodb://ds159371.mlab.com:59371/project-dev","timestamp":"2017-07-13T11:43:25.672Z"}
-{"level":"error","message":"app.err403Fn : auth.validToken failed","timestamp":"2017-07-13T11:43:34.156Z"}
-{"level":"error","message":"app.err403Fn : auth.validToken failed","timestamp":"2017-07-13T11:44:47.787Z"}
-{"level":"error","message":"app.err403Fn : auth.validToken failed","timestamp":"2017-07-13T11:45:31.326Z"}
-{"level":"error","message":"Mongoose default connection disconnected","timestamp":"2017-07-13T11:46:04.942Z"}

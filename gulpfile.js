@@ -13,8 +13,7 @@ const app_index = './src/app/index.js'
 gulp.task('run-forever', () => {
     return new (forever.Monitor)(app_index, {
         'env': {
-            NODE_ENV : 'production', 
-            APP_TYPE : 'back'
+            NODE_ENV : 'production'
         },
         'killTree': true, //kills the entire child process tree on `exit`
     })
@@ -34,8 +33,7 @@ gulp.task('run-nodemon', () => {
             script : app_index,
             ext : 'js',
             env : {
-                'NODE_ENV': 'development', 
-                'APP_TYPE': 'back' 
+                'NODE_ENV': 'development'
             },
             ignore : nodemon_ignore
         })

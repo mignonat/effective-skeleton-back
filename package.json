@@ -4,6 +4,8 @@
   "description": "Backend Skeleton of web application with minimum functionalities",
   "main": "public/html/index.html",
   "scripts": {
+    "mongo": "mongod --auth --port 12345",
+    "mongo-shell": "mongo --port 12345 -u 'myUserAdmin' -p 'abc123' --authenticationDatabase 'admin'",
     "start": "gulp start-prod",
     "build": "gulp build-prod",
     "start-dev": "gulp start-dev",
