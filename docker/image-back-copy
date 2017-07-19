@@ -1,0 +1,11 @@
+FROM node:alpine
+RUN mkdir /app
+WORKDIR /app
+COPY effective-skeleton-back/env /app/env
+COPY effective-skeleton-back/gulpfile.js /app/gulpfile.js
+COPY effective-skeleton-back/package.json /app/package.json
+COPY effective-skeleton-back/src /app/src
+COPY effective-skeleton-back/translations /app/translations
+COPY effective-skeleton-back/node_modules /app/node_modules
+EXPOSE 8080
+CMD ["npm", "start"]
